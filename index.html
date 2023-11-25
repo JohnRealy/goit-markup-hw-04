@@ -17,11 +17,11 @@
 <body>
 	<!-- Header section -->
 	<header class="header">
-		<div class="header-container container">
+		<div class="header-container container">      
 			<nav class="header-nav">
 				<a href="./index.html" class="logo">Web<span class="logo-second-part">Studio</span></a>
 				<ul class="header-links">
-					<li class="header-link"><a href="./index.html" class="studio-link">Studio</a></li>
+					<li class="header-link"><a href="./index.html" class="studio-link current">Studio</a></li>
 					<li class="header-link"><a href="" class="studio-link">Portfolio</a></li>
 					<li class="header-link"><a href="" class="studio-link">Contacts</a></li>
 				</ul>	
@@ -48,9 +48,11 @@
 				<h2 class="visually-hidden">Our advantages</h2>
 				<ul class="our-advantages-block">
 					<li class="our-advantages-item">
-						<!-- <div class="our-advantages-img-block">
-							<img class="our-advantages-img" src="./images/antenna.png" alt="Antenna icon">
-						</div> -->
+						<div class="our-advantages-img">
+						<svg class="our-advantages-icon" width="64px" height="64px">
+								<use href="./icons/symbol-defs.svg#icon-antenna" aria-label="Icons"></use>
+							</svg>	
+						</div>	
 						<h3 class="our-advantages-item-heading">Strategy</h3>
 						<p class="our-advantages-item-text">
 							Our goal is to identify the business problem to walk away with the
@@ -58,9 +60,11 @@
 						</p>	
 					</li>
 					<li class="our-advantages-item">
-						<!-- <div class="our-advantages-img-block">
-							<img class="our-advantages-img" src="./images/clock.png" alt="Clock icon">
-						</div> -->
+						<div class="our-advantages-img">	
+						<svg class="our-advantages-icon" width="64px" height="64px">
+								<use href="./icons/symbol-defs.svg#icon-clock"  aria-label="Icons"></use>
+							</svg>	
+						</div>
 						<h3 class="our-advantages-item-heading">Punctuality</h3>
 						<p class="our-advantages-item-text">
 							Bring the key message to the brand's audience for the best price
@@ -68,9 +72,11 @@
 						</p>
 					</li>
 					<li class="our-advantages-item">
-						<!-- <div class="our-advantages-img-block">
-							<img class="our-advantages-img" src="./images/diagram.png" alt="Diagram icon">
-						</div>	 -->
+							<div class="our-advantages-img">
+								<svg class="our-advantages-icon" width="64px" height="64px">       
+									<use href="./icons/symbol-defs.svg#icon-diagram"  aria-label="Icons"></use>
+								</svg>
+							</div>
 							<h3 class="our-advantages-item-heading">Diligence</h3>
 						<p class="our-advantages-item-text">
 							Research and confirm brands that present the strongest digital
@@ -78,9 +84,11 @@
 						</p>
 					</li>
 					<li class="our-advantages-item">
-						<!-- <div class="our-advantages-img-block">
-							<img class="our-advantages-img" src="./images/astronaut.png" alt="Astronaut icon">
-						</div>	 -->
+						<div class="our-advantages-img">
+						<svg class="our-advantages-icon"  width="64px" height="64px">
+								<use href="./icons/symbol-defs.svg#icon-astronaut" aria-label="Icons"></use>
+							</svg>	
+						</div>	
 							<h3 class="our-advantages-item-heading">Technologies</h3>
 						<p class="our-advantages-item-text">
 							Design practice focused on digital experiences. We bring forth a
@@ -101,12 +109,36 @@
 							<h3 class="our-team-item-heading">Mark Guerrero</h3>
 							<p class="our-team-text">Product Designer</p>
 						</div>
-						<!-- <div class="our-team-item-icons">
-							<img class="our-team-item-icon-img" src="./images/instagram.png" alt="Instagram icon">
-							<img class="our-team-item-icon-img" src="./images/twitter.png" alt="Twiter icon">
-							<img class="our-team-item-icon-img" src="./images/facebook.png" alt="Facebook icon">
-							<img class="our-team-item-icon-img" src="./images/linkedin.png" alt="Linked in icon">
-						</div> -->
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon instagram" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
 					</li>
 					<li class="our-team-item">
 						<img class="our-team-img" src="./images/tom-ford.jpg" alt="Frontend Developer photo" width="264" />
@@ -114,12 +146,36 @@
 							<h3 class="our-team-item-heading">Tom Ford</h3>
 							<p class="our-team-text">Frontend Developer</p>
 						</div>
-						<!-- <div class="our-team-item-icons">
-							<img class="our-team-item-icon-img" src="./images/instagram.png" alt="Instagram icon">
-							<img class="our-team-item-icon-img" src="./images/twitter.png" alt="Twiter icon">
-							<img class="our-team-item-icon-img" src="./images/facebook.png" alt="Facebook icon">
-							<img class="our-team-item-icon-img" src="./images/linkedin.png" alt="Linked in icon">
-						</div> -->
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon instagram" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
 					</li>
 					<li class="our-team-item">
 						<img class="our-team-img" src="./images/camila-garcia.jpg" alt="Camila Garcia photo" width="264" />
@@ -127,12 +183,36 @@
 							<h3 class="our-team-item-heading">Camila Garcia</h3>
 							<p class="our-team-text">Marketing</p>
 						</div>
-						<!-- <div class="our-team-item-icons">
-							<img class="our-team-item-icon-img" src="./images/instagram.png" alt="Instagram icon">
-							<img class="our-team-item-icon-img" src="./images/twitter.png" alt="Twiter icon">
-							<img class="our-team-item-icon-img" src="./images/facebook.png" alt="Facebook icon">
-							<img class="our-team-item-icon-img" src="./images/linkedin.png" alt="Linked in icon">
-						</div> -->
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon instagram" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
 					</li>
 					<li class="our-team-item">
 						<img class="our-team-img" src="./images/daniel-wilson.jpg" alt="Daniel Wilson photo" width="264" />
@@ -140,12 +220,36 @@
 							<h3 class="our-team-item-heading">Daniel Wilson</h3>
 							<p class="our-team-text">UI Designer</p>
 						</div>
-						<!-- <div class="our-team-item-icons">
-							<img class="our-team-item-icon-img" src="./images/instagram.png" alt="Instagram icon">
-							<img class="our-team-item-icon-img" src="./images/twitter.png" alt="Twiter icon">
-							<img class="our-team-item-icon-img" src="./images/facebook.png" alt="Facebook icon">
-							<img class="our-team-item-icon-img" src="./images/linkedin.png" alt="Linked in icon">
-						</div> -->
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon instagram" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-list-icon" width="16px" height="16px">
+										<use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
